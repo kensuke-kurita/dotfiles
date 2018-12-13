@@ -1,0 +1,24 @@
+[user]
+	name = kurita_k
+	email = hogehoge@gmail.com
+[alias]
+	difflog = log -p HEAD@{3.days.ago}
+	logg = log --graph --date=short --pretty='%C(yellow)%h%Creset %C(black bold)%an%Creset %Cgreen[%cd]%Creset %s %C(cyan bold)%d%Creset' --decorate
+	logs = log --pretty=format:'%C(yellow)%h%Creset - %C(black bold)%an%Creset %C(magenta)[%ai]%Creset %C(red)%s%Creset' --name-status
+	diffc = diff --cached
+	lsf = ls-files -u
+	diffw = diff --color-words -w
+	# ファイルのみを出力
+	dif = diff --name-only
+	# grepしてくれる
+	gr = grep --line-number --break --heading
+	# ショートカット
+	st = status
+	co = checkout
+ br = branch
+ ci = commit
+ cam = commit ?amend
+[color]
+	ui = auto
+[credential]
+	helper = osxkeychain
