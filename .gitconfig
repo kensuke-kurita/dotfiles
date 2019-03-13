@@ -1,6 +1,6 @@
 [user]
 	name = kurita_k
-	email = hogehoge@gmail.com
+	email = kensuke.kurita@gmail.com
 [alias]
 	difflog = log -p HEAD@{3.days.ago}
 	logg = log --graph --date=short --pretty='%C(yellow)%h%Creset %C(black bold)%an%Creset %Cgreen[%cd]%Creset %s %C(cyan bold)%d%Creset' --decorate
